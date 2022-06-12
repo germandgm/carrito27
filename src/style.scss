@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body{
+    background-color: rgb(156, 190, 199);
+}
+h1{
+    text-align: center;
+}
+
+#botonCarrito{
+    padding-left: 75px;
+}
+
+h4{
+    text-align: center;
+    color: rgb(54, 98, 119);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+h3{
+    font-size: large;
+}
+
+.btn{
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+}
+.list-group-item{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid rgb(83, 29, 29);
+}
+   
+#layaout-header{
+    text-align: center;
+    color: rgb(83, 29, 29);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#miNav{
+    padding: 5px 100px 0px 50px;    
+
+}
+.AirNet{
+    text-align: left;
+    color: rgb(83, 29, 29);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding-right: 25rem;
+
+
+}
+.descripcion{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    
+}
+
+#botonDetalle{
+    padding: 0px;
+}
+
+.precio{
+    color: rgb(12, 14, 14);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(115, 200, 232);
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+#imagenDetalle{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.itemDetail{
+    padding-left: 1.5rem;
+}
+
+.descriptionDetail{
+    color: black;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.precioDetail{
+    color: rgb(23, 77, 241);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+ 
+
+
+}
